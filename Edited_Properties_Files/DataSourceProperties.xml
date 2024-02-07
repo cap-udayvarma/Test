@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSource name="DataSourceReplProperties.xml">
+    <datasource>
+        <database-url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=on)(FAILOVER=yes)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=u060ept43.kroger.com)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=u060ept44.kroger.com)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=espsdev.world)))</database-url>
+        <username>ENC(4iFskZ5uvtftEie4wjvbDF+GeaSqEUtbp/nrD5Cvoo8=)</username>
+        <password>ENC(4iFskZ5uvtftEie4wjvbDF+GeaSqEUtbp/nrD5Cvoo8=)</password>
+        <driver-name>oracle.jdbc.driver.OracleDriver</driver-name>
+        <max-active>100</max-active>
+        <fill-pool>true</fill-pool>
+    </datasource>
+</DataSource>
